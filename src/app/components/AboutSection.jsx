@@ -9,13 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Html5</li>
-        <li>Css3</li>
-        <li>Reactjs</li>
-        <li>Typescript</li>
-        <li>JavaScript</li>
-        <li>Tailwindcss</li>
-        <li>Nextjs</li>
+        <li>HTML5, CSS3, JavaScript, TypeScript</li>
+        <li>React.js, Next.js, React Native</li>
+        <li>Tailwind CSS, Shadcn/UI, Framer Motion</li>
+        <li>Node.js, Express.js, Prisma ORM</li>
+        <li>MySQL, PostgreSQL, MongoDB</li>
+        <li>Firebase, AWS, Vercel, DigitalOcean</li>
+        <li>Socket.IO, REST APIs, Postman</li>
       </ul>
     ),
   },
@@ -24,8 +24,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelor of Software Engineering</li>
-        <li>Virtual University, Islamabad, Pakistan</li>
+        <li>Bachelor of Computer Engineering</li>
+        <li>Iskenderun Technical University, Hatay, Türkiye</li>
+        <li>2025</li>
       </ul>
     ),
   },
@@ -54,14 +55,18 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I specialize in developing responsive web applications using HTML,
-            CSS, JavaScript, Typescript, React.js, and Next.js. Over the years, I&apos;ve 
-            delivered high-quality solutions that provide exceptional user
-            experiences and optimal performance across all devices. My
-            experience collaborating with cross-functional teams and developing
-            various projects has equipped me with the skills and confidence to
-            tackle and resolve any challenges in my field effectively.{" "}
+            I’m Ahmad Hanki, a Full Stack JavaScript Developer passionate about
+            building fast, reliable, and user-friendly web applications. I
+            specialize in Next.js, React, and Node.js, creating scalable digital
+            solutions that deliver great performance and design. <br />
+            <br />
+            I’ve worked with teams at Gezer Group, Uzability Studio, and on
+            various freelance projects, developing everything from modern
+            frontends to real-time backend systems. I love turning ideas into
+            clean, functional code and always look for ways to make products
+            more intuitive and enjoyable to use.
           </p>
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}

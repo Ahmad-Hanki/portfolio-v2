@@ -1,10 +1,8 @@
 "use client";
-import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import Image from "next/image";
 
 const navLinks = [
   {
@@ -37,8 +35,8 @@ const Navbar = () => {
       <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
         <div className="flex container text-[#ADB7BE] lg:py-4 flex-wrap items-center font-serif justify-between sm:text-xl mx-auto px-4 py-2">
           <div>
-            Malahima
-            <span className="hidden sm:inline"> Amir</span>
+            Ahmad
+            <span className="hidden sm:inline"> Hanki</span>
           </div>
 
           <div className="mobile-menu block md:hidden">

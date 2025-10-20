@@ -4,30 +4,30 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Malahima Amir | Front-End Developer",
+  title: "Ahmad Hanki | Front-End Developer",
   description:
-    "Portfolio of Malahima Amir - a passionate Front-End developer specializing in modern web applications, UI/UX, and scalable backend systems.",
+    "Portfolio of Ahmad Hanki - a passionate Front-End developer specializing in modern web applications, UI/UX, and scalable backend systems.",
   openGraph: {
-    title: "Malahima Amir | Front-End Developer",
+    title: "Ahmad Hanki | Front-End Developer",
     description:
-      "Check out Malahima's portfolio featuring dynamic projects, skills, and achievements in Front-End development.",
-    url: "https://malahima-amir.vercel.app",
-    siteName: "Malahima Amir Portfolio",
+      "Check out Ahmad's portfolio featuring dynamic projects, skills, and achievements in Front-End development.",
+    // url: "https://ahmad-hanki.vercel.app", //Todo: add your site url
+    siteName: "Ahmad Hanki Portfolio",
     images: [
       {
         url: "/images/preview.png",
         width: 1200,
         height: 630,
-        alt: "Malahima Amir Portfolio Preview",
+        alt: "Ahmad Hanki Portfolio Preview",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Malahima Amir | Front-End Developer",
+    title: "Ahmad Hanki | Front-End Developer",
     description:
-      "Explore Malahima Amir's projects, skills, and achievements in web development.",
+      "Explore Ahmad Hanki's projects, skills, and achievements in web development.",
     images: ["/images/preview.png"],
   },
 };

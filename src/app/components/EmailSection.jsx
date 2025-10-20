@@ -11,7 +11,7 @@ const EmailSection = () => {
   const [message, setMessage] = useState("");
 
   const handleSendMessage = () => {
-    const recipient = "malahimaamir@gmail.com";
+    const recipient = "a.hanki@hotmail.com";
     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + "\n\nFrom: " + email)}`;
     window.location.href = mailtoLink;
   };
@@ -28,10 +28,10 @@ const EmailSection = () => {
           I&apos;m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/malahimaamir" target="_blank">
+          <Link href="https://github.com/ahmad-hanki" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/malahima-amir-408069287/" target="_blank">
+          <Link href="https://www.linkedin.com/in/ahmad-hanki/" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
