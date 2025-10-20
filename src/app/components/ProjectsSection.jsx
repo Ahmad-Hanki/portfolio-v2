@@ -7,6 +7,160 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Meta Duzey Dashboard",
+    description:
+      "A sleek and modern dashboard interface for Meta Duzey, A p dashboard that allow the admin to manage the therapy sessions, users, and content effectively.",
+    image: "/images/projects/metaduzay-dashboard.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/metaduzey-dashborad",
+    previewUrl: "https://metaduzey-dashborad.vercel.app/",
+    private: false,
+  },
+  {
+    id: 2,
+    title: "Watfa",
+    description:
+      "A candy store website offering a variety of sweets and treats, developed using Next.js and Tailwind CSS for a delightful shopping experience.",
+    image: "/images/projects/watfa.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://watfasekerleme.com/",
+    private: true,
+  },
+  {
+    id: 3,
+    title: "Emerson Collective",
+    description:
+      "Emerson Collective merges charitable endeavors with strategic investments to cultivate and uphold innovative projects.",
+    image: "/images/projects/emersoncollective.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.emersoncollective.com/",
+    private: true,
+  },
+  {
+    id: 4,
+    title: "Fatma Gold",
+    description:
+      "A luxurious jewelry brand offering exquisite designs and personalized pieces.",
+    image: "/images/projects/gold.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/Fatma-gold",
+    previewUrl: "https://fatma-gold.vercel.app/",
+    private: false,
+  },
+  {
+    id: 5,
+    title: "Meta Duzey Client",
+    description:
+      "A user-friendly client interface for Meta Duzey, An appointment booking of a therapy website designed to facilitate seamless access to therapy sessions and resources.",
+    image: "/images/projects/metaduzay-client.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/metaduzey-user",
+    previewUrl: "https://metaduzey-user.vercel.app/",
+    private: false,
+  },
+  {
+    id: 6,
+    title: "Chikiwiki Restaurant",
+    description:
+      "A user-friendly client interface for Chikiwiki, a restaurant website designed to facilitate seamless access to menu items, reservations, and customer feedback.",
+    image: "/images/projects/chikiwiki.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.chikiwiki.net/",
+    private: true,
+  },
+  {
+    id: 7,
+    title: "Nutrition clinic",
+    description:
+      "Experience the convenience of natural clicks as your doctor organizes your dietary plan seamlessly.",
+    image: "/images/projects/Nutrition-clinic.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/yasarcolak",
+    previewUrl: "https://yasarcolak.vercel.app/en",
+    private: false,
+  },
+  {
+    id: 8,
+    title: "Uzability",
+    description:
+      "A very advanced motions and animations website for Uzability Studio, a web design and client services agency.",
+    image: "/images/projects/uzability.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.uza.studio/",
+    private: true,
+  },
+  {
+    id: 9,
+    title: "Rofouf",
+    description:
+      "A modern and animated website for Logistics & storage solutions company.",
+    image: "/images/projects/rofouf.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.rofouf.co/",
+    private: true,
+  },
+  {
+    id: 10,
+    title: "xPact",
+    description:
+      "A modern and animated website for Events Management and advisory company.",
+    image: "/images/projects/xPact.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.xpact.net/",
+    private: true,
+  },
+  {
+    id: 11,
+    title: "Troika",
+    description:
+      "A modern and animated website for events management and advisory company.",
+    image: "/images/projects/troika.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/troika",
+    previewUrl: "https://troika-rouge.vercel.app/",
+    private: false,
+  },
+  {
+    id: 12,
+    title: "Troika v2",
+    description:
+      "The second version of troiak, a modern and animated website for events management and advisory company.",
+    image: "/images/projects/torika-v2.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "http://Troikaprod.com",
+    private: true,
+  },
+  {
+    id: 13,
+    title: "Salary Platform - (Database no longer available)",
+    description:
+      "A platform where can help the user to know about his current salary range based on his skills and experience and so on.",
+    image: "/images/projects/salary.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/salary-platform",
+    previewUrl: "https://salary-platform.vercel.app/",
+    private: false,
+  },
+  {
+    id: 14,
+    title: "E-commerce - (Database no longer available)",
+    description:
+      "An e-commerce platform that offers a wide range of products, secure payment options, and a seamless shopping experience.",
+    image: "/images/projects/ecommerce.webp",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ahmad-Hanki/e-commerce",
+    previewUrl: "https://koc-toptan.vercel.app/",
+    private: false,
+  },
+  {
+    id: 1,
     title: "Hair Majesty - Redefining Your Look with Elegance",
     description:
       "Step into a world of flawless transformations with expert hairstyling, premium hair treatments, and trendsetting looks designed to elevate your confidence.",
@@ -131,7 +285,7 @@ const ProjectsSection = () => {
       <h2 className="text-center mt-[100px] text-4xl font-bold text-white  mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -147,7 +301,7 @@ const ProjectsSection = () => {
           name="Mobile"
           isSelected={tag === "Mobile"}
         />
-      </div>
+      </div> */}
       <ul
         ref={ref}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full"
