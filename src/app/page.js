@@ -21,7 +21,7 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />        
-        <AutoSlidingCarousel />
+        {/* <AutoSlidingCarousel /> */}
         <Skillsbar />
         <Question />
         <Whyus />
