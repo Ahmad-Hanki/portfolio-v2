@@ -4,7 +4,7 @@ const PricingPlans = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-extrabold text-white sm:text-5xl">
-            Services, that we provide
+            Services, that I provide
           </h2>
           <p className="mt-4 text-xl text-gray-400">
             Choose a plan that suits your needs

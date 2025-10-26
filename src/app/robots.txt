@@ -2,7 +2,6 @@ User-Agent: *
 Allow: /
 Disallow: /api/
 
-Host: https://malahima-amir.vercel.app/ 
+Host: https://portfolio-v2-three-red.vercel.app/ 
 
-Sitemap: https://malahima-amir.vercel.app/sitemap.xml
-// todo
+Sitemap: https://portfolio-v2-three-red.vercel.app/sitemap.xml

@@ -162,6 +162,16 @@ const projectsData = [
   },
   {
     id: 16,
+    title: "jumlaty ",
+    description: "Saudi Arabia's leading restaurant procurement platform",
+    image: "/images/projects/jumlaty.jpeg",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.jumlaty.app/en",
+    private: true,
+  },
+  {
+    id: 17,
     title: "İşbul ",
     description:
       "A job listing platform connecting job seekers with employers, offering a wide range of opportunities across various industries.",
@@ -169,6 +179,17 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "",
     previewUrl: "https://www.isbul.net",
+    private: true,
+  },
+  {
+    id: 17,
+    title: "Bakicibul (Currently Working on V2) ",
+    description:
+      "It is Türkiye's largest caregiver finding platform, providing caregiver and assistant consultancy services with over 250,000 caregiver profiles seeking employment.",
+    image: "/images/projects/bakicibul.webp",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://www.bakicibul.net/",
     private: true,
   },
 ];
@@ -217,7 +238,8 @@ const ProjectsSection = () => {
         ref={ref}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full"
       >
-        {filteredProjects.map((project, index) => (
+        {/* map from last first */}
+        {filteredProjects.reverse().map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
@@ -232,6 +254,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              privateRepo={project.private}
             />
           </motion.li>
         ))}

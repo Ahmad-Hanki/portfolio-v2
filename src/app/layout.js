@@ -11,7 +11,7 @@ export const metadata = {
     title: "Ahmad Hanki | Front-End Developer",
     description:
       "Check out Ahmad's portfolio featuring dynamic projects, skills, and achievements in Front-End development.",
-    // url: "https://ahmad-hanki.vercel.app", //Todo: add your site url
+    url: "https://portfolio-v2-three-red.vercel.app/",
     siteName: "Ahmad Hanki Portfolio",
     images: [
       {
