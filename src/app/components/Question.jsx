@@ -1,11 +1,11 @@
 export default function Question() {
   return (
     <section class="text-gray-100 mt-[100px] py-12 transition-all duration-500">
-      <div class="container flex flex-col justify-center p-4 mx-auto md:p-8 space-y-4">
+      <div class="container flex flex-col justify-center py-4 mx-auto md:py-8 space-y-4">
         <h2 class="mb-12 text-4xl font-bold text-center sm:text-5xl">
           Frequently Asked Questions
         </h2>
-        <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+        <div class="flex flex-col divide-y  divide-gray-700">
           <details class="transition-all duration-500 overflow-hidden">
             <summary class="py-2 outline-none cursor-pointer focus:underline">
               Can you share details about your experience?
@@ -42,8 +42,9 @@ export default function Question() {
             </summary>
             <div class="px-4 pb-4">
               <p>
-                I specialize in React, Next.js, TypeScript, and Tailwind CSS. I also have experience with APIs,
-                Git/GitHub, and backend technologies like Node.js and Express.
+                I specialize in React, Next.js, TypeScript, and Tailwind CSS. I
+                also have experience with APIs, Git/GitHub, and backend
+                technologies like Node.js and Express.
               </p>
             </div>
           </details>

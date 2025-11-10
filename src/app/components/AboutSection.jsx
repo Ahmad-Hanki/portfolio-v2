@@ -8,14 +8,16 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-6">
         <li>HTML5, CSS3, JavaScript, TypeScript</li>
         <li>React.js, Next.js, React Native</li>
         <li>Tailwind CSS, Shadcn/UI, Framer Motion</li>
-        <li>Node.js, Express.js, Prisma ORM</li>
+        <li>Node.js, Express.js, NestJS, Prisma ORM</li>
+        <li>GraphQL, Codegen, React Query</li>
         <li>MySQL, PostgreSQL, MongoDB</li>
-        <li>Firebase, AWS, Vercel, DigitalOcean</li>
+        <li>JWT, Passport, NextAuth, KindeAuth, Clerk</li>
         <li>Socket.IO, REST APIs, Postman</li>
+        <li>Firebase, AWS, Vercel, DigitalOcean</li>
       </ul>
     ),
   },
@@ -23,7 +25,7 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-6">
         <li>Bachelor of Computer Engineering</li>
         <li>Iskenderun Technical University, Hatay, Türkiye</li>
         <li>2025</li>
@@ -44,7 +46,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8  xl:gap-16 sm:py-16 ">
         <Image
           className="rounded-3xl"
           src="/images/about-image.png"

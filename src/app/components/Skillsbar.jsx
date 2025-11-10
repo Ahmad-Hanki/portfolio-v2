@@ -12,25 +12,34 @@ export default function Skillsbar() {
     { name: "Framer Motion", percentage: 89, color: "#F23C50" },
     { name: "Node.js", percentage: 88, color: "#8CC84B" },
     { name: "Express.js", percentage: 87, color: "#000000" },
+    { name: "NestJS", percentage: 90, color: "#E0234E" },
+    { name: "GraphQL", percentage: 90, color: "#E10098" },
+    { name: "Codegen", percentage: 85, color: "#7B61FF" },
+    { name: "React Query", percentage: 88, color: "#FF4154" },
     { name: "Prisma ORM", percentage: 91, color: "#0C344B" },
     { name: "MySQL", percentage: 90, color: "#00758F" },
     { name: "PostgreSQL", percentage: 90, color: "#336791" },
     { name: "MongoDB", percentage: 89, color: "#47A248" },
+    { name: "JWT", percentage: 87, color: "#000000" },
+    { name: "Passport", percentage: 86, color: "#34A853" },
+    { name: "NextAuth", percentage: 85, color: "#000000" },
+    { name: "KindeAuth", percentage: 84, color: "#6C47FF" },
+    { name: "Clerk", percentage: 83, color: "#FF4B55" },
+    { name: "Socket.IO", percentage: 81, color: "#010101" },
+    { name: "REST APIs", percentage: 83, color: "#FF5733" },
+    { name: "Postman", percentage: 82, color: "#FF6C37" },
     { name: "Firebase", percentage: 82, color: "#FFCA28" },
     { name: "AWS", percentage: 80, color: "#FF9900" },
     { name: "Vercel", percentage: 84, color: "#000000" },
     { name: "DigitalOcean", percentage: 83, color: "#0080FF" },
-    { name: "Socket.IO", percentage: 81, color: "#010101" },
-    { name: "REST APIs", percentage: 83, color: "#FF5733" },
-    { name: "Postman", percentage: 82, color: "#FF6C37" },
   ];
 
   return (
     <div
       id="skill"
-      className=" mt-[150px]  flex justify-center items-center bg-[#121212] dark:bg-gray-800 px-10"
+      className=" mt-[150px] flex justify-center items-center bg-[#121212] dark:bg-gray-800 "
     >
-      <div className="w-[800px] max-w-full text-center mx-auto">
+      <div className="w-full max-w-full text-center mx-auto">
         <h4 className="text-3xl md:text-5xl font-bold mb-10 text-white">
           Skills
         </h4>

@@ -91,7 +91,7 @@ const HeroSection = () => {
   return (
     <section className="relative h-[550px] flex items-center justify-center overflow-hidden">
       <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full" />
-      <div className="relative z-10 text-center text-white p-5">
+      <div className="relative z-10 text-center text-white py-5">
         <h1 className="text-4xl sm:text-5xl lg:text-8xl font-extrabold mb-4">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
             Hi, I am Ahmad Hanki{" "}
